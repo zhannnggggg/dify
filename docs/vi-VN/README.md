@@ -115,7 +115,7 @@ Cách dễ nhất để khởi động máy chủ Dify là chạy tệp [docker-
 
 ```bash
 cd docker
-cp .env.example .env
+cp .env .env
 docker compose up -d
 ```
 
@@ -125,7 +125,7 @@ Sau khi chạy, bạn có thể truy cập bảng điều khiển Dify trong tr�
 
 ## Các bước tiếp theo
 
-Nếu bạn cần tùy chỉnh cấu hình, vui lòng tham khảo các nhận xét trong tệp [.env.example](../../docker/.env.example) của chúng tôi và cập nhật các giá trị tương ứng trong tệp `.env` của bạn. Ngoài ra, bạn có thể cần điều chỉnh tệp `docker-compose.yaml`, chẳng hạn như thay đổi phiên bản hình ảnh, ánh xạ cổng hoặc gắn kết khối lượng, dựa trên môi trường triển khai cụ thể và yêu cầu của bạn. Sau khi thực hiện bất kỳ thay đổi nào, vui lòng chạy lại `docker-compose up -d`. Bạn có thể tìm thấy danh sách đầy đủ các biến môi trường có sẵn [tại đây](https://docs.dify.ai/getting-started/install-self-hosted/environments).
+Nếu bạn cần tùy chỉnh cấu hình, vui lòng tham khảo các nhận xét trong tệp [.env.example](../../docker/.env) của chúng tôi và cập nhật các giá trị tương ứng trong tệp `.env` của bạn. Ngoài ra, bạn có thể cần điều chỉnh tệp `docker-compose.yaml`, chẳng hạn như thay đổi phiên bản hình ảnh, ánh xạ cổng hoặc gắn kết khối lượng, dựa trên môi trường triển khai cụ thể và yêu cầu của bạn. Sau khi thực hiện bất kỳ thay đổi nào, vui lòng chạy lại `docker-compose up -d`. Bạn có thể tìm thấy danh sách đầy đủ các biến môi trường có sẵn [tại đây](https://docs.dify.ai/getting-started/install-self-hosted/environments).
 
 ### Giám sát Số liệu với Grafana
 

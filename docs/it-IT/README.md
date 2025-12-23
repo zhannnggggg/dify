@@ -77,7 +77,7 @@ Il modo più semplice per avviare il server Dify è tramite [docker compose](../
 ```bash
 cd dify
 cd docker
-cp .env.example .env
+cp .env .env
 docker compose up -d
 ```
 
@@ -135,7 +135,7 @@ Mettete una stella a Dify su GitHub e ricevete notifiche immediate sui nuovi ril
 
 ## Configurazioni Avanzate
 
-Se dovete personalizzare la configurazione, leggete i commenti nel nostro file [.env.example](../../docker/.env.example) e aggiornate i valori corrispondenti nel vostro file `.env`. Inoltre, potrebbe essere necessario apportare modifiche al file `docker-compose.yaml`, come cambiare le versioni delle immagini, le mappature delle porte o i mount dei volumi, a seconda del vostro ambiente di distribuzione specifico e dei vostri requisiti. Dopo aver apportato le modifiche, riavviate `docker-compose up -d`. L'elenco completo delle variabili d'ambiente disponibili è disponibile [qui](https://docs.dify.ai/getting-started/install-self-hosted/environments).
+Se dovete personalizzare la configurazione, leggete i commenti nel nostro file [.env.example](../../docker/.env) e aggiornate i valori corrispondenti nel vostro file `.env`. Inoltre, potrebbe essere necessario apportare modifiche al file `docker-compose.yaml`, come cambiare le versioni delle immagini, le mappature delle porte o i mount dei volumi, a seconda del vostro ambiente di distribuzione specifico e dei vostri requisiti. Dopo aver apportato le modifiche, riavviate `docker-compose up -d`. L'elenco completo delle variabili d'ambiente disponibili è disponibile [qui](https://docs.dify.ai/getting-started/install-self-hosted/environments).
 
 ### Monitoraggio delle Metriche con Grafana
 

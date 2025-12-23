@@ -114,7 +114,7 @@ Dify sunucusunu başlatmanın en kolay yolu, [docker-compose.yml](../../docker/d
 
 ```bash
 cd docker
-cp .env.example .env
+cp .env .env
 docker compose up -d
 ```
 
@@ -124,7 +124,7 @@ docker compose up -d
 
 ## Sonraki adımlar
 
-Yapılandırmayı özelleştirmeniz gerekiyorsa, lütfen [.env.example](../../docker/.env.example) dosyamızdaki yorumlara bakın ve `.env` dosyanızdaki ilgili değerleri güncelleyin. Ayrıca, spesifik dağıtım ortamınıza ve gereksinimlerinize bağlı olarak `docker-compose.yaml` dosyasının kendisinde de, imaj sürümlerini, port eşlemelerini veya hacim bağlantılarını değiştirmek gibi ayarlamalar yapmanız gerekebilir. Herhangi bir değişiklik yaptıktan sonra, lütfen `docker-compose up -d` komutunu tekrar çalıştırın. Kullanılabilir tüm ortam değişkenlerinin tam listesini [burada](https://docs.dify.ai/getting-started/install-self-hosted/environments) bulabilirsiniz.
+Yapılandırmayı özelleştirmeniz gerekiyorsa, lütfen [.env.example](../../docker/.env) dosyamızdaki yorumlara bakın ve `.env` dosyanızdaki ilgili değerleri güncelleyin. Ayrıca, spesifik dağıtım ortamınıza ve gereksinimlerinize bağlı olarak `docker-compose.yaml` dosyasının kendisinde de, imaj sürümlerini, port eşlemelerini veya hacim bağlantılarını değiştirmek gibi ayarlamalar yapmanız gerekebilir. Herhangi bir değişiklik yaptıktan sonra, lütfen `docker-compose up -d` komutunu tekrar çalıştırın. Kullanılabilir tüm ortam değişkenlerinin tam listesini [burada](https://docs.dify.ai/getting-started/install-self-hosted/environments) bulabilirsiniz.
 
 ### Grafana ile Metrik İzleme
 

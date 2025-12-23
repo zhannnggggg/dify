@@ -120,7 +120,7 @@ A maneira mais fácil de iniciar o servidor Dify é executar nosso arquivo [dock
 
 ```bash
 cd docker
-cp .env.example .env
+cp .env .env
 docker compose up -d
 ```
 
@@ -130,7 +130,7 @@ Após a execução, você pode acessar o painel do Dify no navegador em [http://
 
 ## Próximos passos
 
-Se precisar personalizar a configuração, consulte os comentários no nosso arquivo [.env.example](../../docker/.env.example) e atualize os valores correspondentes no seu arquivo `.env`. Além disso, talvez seja necessário fazer ajustes no próprio arquivo `docker-compose.yaml`, como alterar versões de imagem, mapeamentos de portas ou montagens de volumes, com base no seu ambiente de implantação específico e nas suas necessidades. Após fazer quaisquer alterações, execute novamente `docker-compose up -d`. Você pode encontrar a lista completa de variáveis de ambiente disponíveis [aqui](https://docs.dify.ai/getting-started/install-self-hosted/environments).
+Se precisar personalizar a configuração, consulte os comentários no nosso arquivo [.env.example](../../docker/.env) e atualize os valores correspondentes no seu arquivo `.env`. Além disso, talvez seja necessário fazer ajustes no próprio arquivo `docker-compose.yaml`, como alterar versões de imagem, mapeamentos de portas ou montagens de volumes, com base no seu ambiente de implantação específico e nas suas necessidades. Após fazer quaisquer alterações, execute novamente `docker-compose up -d`. Você pode encontrar a lista completa de variáveis de ambiente disponíveis [aqui](https://docs.dify.ai/getting-started/install-self-hosted/environments).
 
 ### Monitoramento de Métricas com Grafana
 

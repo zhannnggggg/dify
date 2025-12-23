@@ -74,7 +74,7 @@ Najlažji način za zagon strežnika Dify je prek docker compose . Preden zažen
 ```bash
 cd dify
 cd docker
-cp .env.example .env
+cp .env .env
 docker compose up -d
 ```
 
